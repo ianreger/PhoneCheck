@@ -15,7 +15,7 @@ client = Client()
 
 
 # Open list of numbers
-with open('C:\WORKSPACE\AUTODIALER\phonelists\zdp-phonelist.csv', 'r') as read_obj:
+with open('PATH\TO\FILES\PhoneNumbers\phonenumbers.csv', 'r') as read_obj:
     # list of numbers
     csv_reader = reader(read_obj)
     # CSV file to write to
