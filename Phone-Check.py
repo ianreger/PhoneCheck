@@ -5,19 +5,19 @@ import csv
 from csv import reader
 import time
 
-"""
+
 # Your Account SID from twilio.com/console
 account_sid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
 # Your Auth Token from twilio.com/console
 auth_token  = "your_auth_token" 
-"""
+
 
 def printspacing():
     print("\n--------------------------\n")
 
 # Initialize Twilio Client
-client = Client()
+client = Client(account_sid, auth_token)
 
 
 # Open list of numbers
